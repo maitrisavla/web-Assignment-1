@@ -1,0 +1,73 @@
+body {
+  background: rgb(73, 70, 131);
+}
+
+ /* Refernce: https://www.w3schools.com/howto/howto_css_register_form.asp*/
+.container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: right;
+  height: 100vh;
+  max-width: 500px;
+  margin: auto;
+}
+.container > form {
+  width: 70%;
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+}
+pre {
+  width: 70%;
+  color: #fff;
+  font-size: larger;
+}
+
+label{
+  display: inline-block;
+  text-align: right;
+  width: 100px;
+  font-size: large;
+}
+
+input{
+  padding: 5px 10px;
+}
+
+h1{
+  align-items: center;
+  color:#f8f5f5;
+  size: 200px;
+}
+button {
+  background: #0563b4 !important;
+  width: 100px;
+  align-items: center;
+  color: #fff;
+  height: 30px;
+  width: 120px;
+  font-size: large;
+  border-radius: 5px;
+}
+p {
+  color: red;
+  text-align: center;
+}
+
+.container > field {
+padding: 10px;
+align-items: center;
+}
+
+.btn{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+
+
