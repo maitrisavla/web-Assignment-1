@@ -30,7 +30,7 @@ function RegistrationForm() {
     if (Object.keys(formErrors).length === 0 && isSubmit) {
       console.log("Successful registration");
     }
-  }, [formErrors]);
+  }, [formErrors, isSubmit]);
 
  
   const validate = (values) => {
